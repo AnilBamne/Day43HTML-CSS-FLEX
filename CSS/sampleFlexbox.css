@@ -1,0 +1,56 @@
+/* applying styles */
+body{
+    padding: 20px;
+}
+.header-container{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: tomato;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.head2{
+    text-transform: capitalize;
+}
+.footer-container{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: lightgreen;
+    padding: 10px;
+    
+}
+.main-container{
+    display: flex;
+    flex-direction: row wrap;
+    text-align: center;
+    font-weight: bold;
+}
+.main-containeritems{
+    text-align: left;
+    background: deepskyblue;
+   
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+    
+}
+.rightSidebar{ background: hotpink;}
+.leftSidebar{background: gold;}
+.sidebar{
+    flex: 1 0 0;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.main-containeritems{flex: 4 0px;}
+.leftSidebar{order: 1;}
+.main-containeritems{order: 2;}
+.rightSidebar{order: 3;}
+
